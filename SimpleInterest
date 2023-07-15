@@ -1,0 +1,10 @@
+#write a program using functions for calculating simple interest
+
+def simple_interest(p,t,r):
+ p = int(input("Enter the principle amount : "))
+ t = float(input("Enter the time period(in years) : "))
+ r = float(input("Enter the rate of interest : "))
+ s_i = (p*t*r)/100
+ print(s_i)
+
+simple_interest(p,t,r)
